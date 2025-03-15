@@ -5,15 +5,15 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 const enneagramTypes = [
-  { number: 1, name: "The Reformer", color: "bg-black" },
-  { number: 2, name: "The Helper", color: "bg-black" },
-  { number: 3, name: "The Achiever", color: "bg-black" },
-  { number: 4, name: "The Individualist", color: "bg-black" },
-  { number: 5, name: "The Investigator", color: "bg-black" },
-  { number: 6, name: "The Loyalist", color: "bg-black" },
-  { number: 7, name: "The Enthusiast", color: "bg-black" },
-  { number: 8, name: "The Challenger", color: "bg-black" },
-  { number: 9, name: "The Peacemaker", color: "bg-black" },
+  { number: 1, name: "The Crusader", color: "bg-black" },
+  { number: 2, name: "The Guardian", color: "bg-black" },
+  { number: 3, name: "The Trailblazer", color: "bg-black" },
+  { number: 4, name: "The Visionary", color: "bg-black" },
+  { number: 5, name: "The Strategist", color: "bg-black" },
+  { number: 6, name: "The Sentinel", color: "bg-black" },
+  { number: 7, name: "The Maverick", color: "bg-black" },
+  { number: 8, name: "The Warlord", color: "bg-black" },
+  { number: 9, name: "The Diplomat", color: "bg-black" },
 ];
 
 export default function HomePage() {
@@ -39,18 +39,16 @@ export default function HomePage() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background" />
             <div className="absolute inset-0 flex items-center justify-center flex-col">
               <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                The Enneagram Hub
+                The Rebel Mind
               </h1>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-                Discover the ancient wisdom of the Enneagram, a powerful tool for
-                personal growth and understanding. Explore all nine personality types
-                and uncover insights about yourself and others.
+                Unlock your true nature and embrace the rebellion within. Find your Rebel Archetype and discover your path to power, strategy, and freedom.
               </p>
               <Link
                 href="/quiz"
                 className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
               >
-                Take the Enneagram Quiz
+                Take the Rebel Mind Quiz
               </Link>
             </div>
           </div>
