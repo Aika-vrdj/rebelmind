@@ -23,9 +23,12 @@ export default function TypeHealthLevels({ healthLevels }: TypeHealthLevelsProps
         <div>
           <h3 className="text-xl font-semibold mb-2 text-green-500">Healthy</h3>
           <ul className="list-disc list-inside space-y-2">
-            {(healthLevels.healthy ?? []).map((level) => (
-              <li key={level}>{level}</li>
-            ))}
+             {Array.isArray(healthLevels?.healthy) 
+              ? healthLevels.healthy.map((level) => (
+               <li key={level ?? "unknown-level"}>{level ?? "Unknown Level"}</li>
+              ))
+              : <li>No healthy levels available</li>
+              }    
           </ul>
         </div>
         <div>
