@@ -440,7 +440,10 @@ const typeData: Record<number, TypeData> = {
 };
 
 export default function TypeDetail({ typeNumber, isWing, wingKey }: TypeDetailProps) {
-  const type = typeData[typeNumber as keyof typeof typeData] ?? {
+   // Ensure typeNumber is valid
+  const validTypeNumber = (typeNumber >= 1 && typeNumber <= 9) ? typeNumber : 1;
+  
+  const type = typeData[validTypeNumber] ?? {
     name: "Unknown Type",
     summary: "Type information not found",
     traits: [] as string[],
@@ -488,13 +491,15 @@ export default function TypeDetail({ typeNumber, isWing, wingKey }: TypeDetailPr
         >
           <h1 className="text-4xl font-bold mb-2">
             {isWing && wingKey ? (
-              <>Wing {wingKey}: {(type.wings as Record<string, WingData>)[wingKey]?.name}</>
+             <>Wing {wingKey}: {(type.wings as Record<string, WingData>)[wingKey]?.name ?? 'Unknown Wing'}</>
             ) : (
-              <>Type {typeNumber}: {type.name}</>
+             <>Type {validTypeNumber}: {type.name ?? 'Unknown Type'}</>
             )}
           </h1>
           <p className="text-xl opacity-90">
-            {isWing && wingKey ? (type.wings as Record<string, WingData>)[wingKey]?.description : type.summary}
+            {isWing && wingKey 
+             ? ((type.wings as Record<string, WingData>)[wingKey]?.description ?? 'No description available')
+             : (type.summary ?? 'No summary available')}
           </p>
         </motion.div>
 
