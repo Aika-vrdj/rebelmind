@@ -298,22 +298,22 @@ const typeData: Record<number, TypeData> = {
   },
   7: {
     name: "The Maverick",
-    summary: "Spontaneous, versatile, and adventurous, driven by a need to experience life's pleasures and avoid pain.",
-    traits: ["Optimistic", "Adventurous", "Versatile", "Spontaneous"],
+    summary: "Busy, fun-loving, and spontaneous, Sevens are motivated by a need to be happy, to plan stimulating experiences, and to avoid pain.",
+    traits: ["Enthusiastic and optimistic", "Versatile and spontaneous", "Scattered and distractible", "Adventure-seeking and pleasure-oriented", "Future-focused and planning", "Head Center: Processes the world via their thinking."],
     wings: {
       "7w6": {
-        name: "The Entertainer",
+        name: "Type 7 wing 6 - The Entertainer",
         traits: ["More responsible", "People-oriented", "Loyal", "Engaging"],
-        description: "Combines Seven's enthusiasm with Six's commitment and connection to others."
+        description: "Combines Seven's enthusiasm with Six's commitment and connection to others. The lively spirit who keeps morale high, yet always vigilant and ready to defend the cause when needed."
       },
       "7w8": {
-        name: "The Realist",
+        name: "Type 7 wing 8 - The Warden",
         traits: ["More assertive", "Goal-oriented", "Independent", "Practical"],
-        description: "Combines Seven's versatility with Eight's strength and decisiveness."
+        description: "Combines Seven's versatility with Eight's strength and decisiveness. The practical and driven force, balancing pragmatism with strength, ensuring the rebellion’s strategic advancement."
       }
     },
-    integration: "Moves to Type 5 in growth",
-    disintegration: "Moves to Type 1 in stress",
+    integration: "In growth moves to Type 5 - The Strategist: Becomes more introspective, focused, and disciplined, learning to sit with discomfort instead of always seeking novelty.",
+    disintegration: "In stress moves to Type 1 - The Crusader: Becomes rigid, critical, and perfectionistic, trying to control everything when overwhelmed.",
     healthLevels: {
       healthy: [
         "Becomes focused and appreciative",
@@ -333,7 +333,7 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Optimism", "Versatility", "Enthusiasm", "Vision"],
     challenges: ["Impulsivity", "Commitment issues", "Escapism", "Superficiality"],
-    examples: ["Robin Williams", "Leonardo DiCaprio", "Elton John"],
+    examples: "I must avoid pain and seek pleasure to be happy; the truth is, embracing discomfort leads to true freedom.",
     subtypes: {
       selfPreservation: "Focused on maintaining comfort and avoiding limitation",
       sexual: "Seeks intense experiences and variety in relationships",
@@ -345,22 +345,22 @@ const typeData: Record<number, TypeData> = {
   },
   8: {
     name: "The Warlord",
-    summary: "Powerful, dominating, and self-confident, driven by a need to be strong and avoid vulnerability.",
-    traits: ["Strong-willed", "Decisive", "Protective", "Confrontational"],
+    summary: "Powerful, dominating, and self-confident, Eights are motivated by a need to be strong, to maintain control over their environment, and to avoid vulnerability.",
+    traits: ["Assertive and direct", "Protective and commanding", "Self-confident and decisive", "Confrontational and justice-oriented", "Control-seeking and independent", "Gut Center: Processes the world via their instincts."],
     wings: {
       "8w7": {
-        name: "The Maverick",
+        name: "Type 8 wing 7 - The Berserker",
         traits: ["More adventurous", "Fun-loving", "Energetic", "Rebellious"],
         description: "Combines Eight's strength with Seven's enthusiasm and adventurousness."
       },
       "8w9": {
-        name: "The Bear",
+        name: "Type 8 wing 9 - The Bear",
         traits: ["More diplomatic", "Calm", "Patient", "Reserved"],
         description: "Combines Eight's power with Nine's desire for peace and harmony."
       }
     },
-    integration: "Moves to Type 2 in growth",
-    disintegration: "Moves to Type 5 in stress",
+    integration: "In growth moves to Type 2 - Guardian: Gains compassion, empathy, and emotional vulnerability, using their strength to protect rather than dominate.",
+    disintegration: "In stress moves to Type 5 - The Strategist: Becomes withdrawn, secretive, and overly suspicious, avoiding vulnerability and detaching from others.",
     healthLevels: {
       healthy: [
         "Becomes heroic and magnanimous",
@@ -380,7 +380,7 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Leadership", "Protection", "Decisiveness", "Justice"],
     challenges: ["Excess", "Domination", "Confrontation", "Vulnerability-avoidance"],
-    examples: ["Martin Luther King Jr.", "Winston Churchill", "Muhammad Ali"],
+    examples: "I must be strong and in control to avoid being hurt; the truth is, vulnerability is a source of power.",
     subtypes: {
       selfPreservation: "Focused on survival and material security through strength",
       sexual: "Seeks intense, passionate connections and possession in relationships",
@@ -392,22 +392,22 @@ const typeData: Record<number, TypeData> = {
   },
   9: {
     name: "The Diplomat",
-    summary: "Accepting, trusting, and stable, driven by a need to maintain peace and avoid conflict.",
-    traits: ["Patient", "Receptive", "Harmonious", "Agreeable"],
+    summary: "Easygoing, self-effacing, and receptive, Nines are motivated by a need to keep the peace, merge with others, and avoid conflict.",
+    traits: ["Peaceful and accommodating", "Harmonizing and mediating", "Comfortable and steady", "Conflict-avoidant and stubborn", "Self-forgetting and merging", "Gut Center: Processes the world via their instincts."],
     wings: {
       "9w8": {
-        name: "The Referee",
+        name: "Type 9 wing 8 - The Tower",
         traits: ["More assertive", "Independent", "Physical", "Grounded"],
         description: "Combines Nine's peace-seeking with Eight's strength and independence."
       },
       "9w1": {
-        name: "The Dreamer",
+        name: "Type 9 wing 1 - The Oracle",
         traits: ["More idealistic", "Principled", "Orderly", "Perfectionist"],
         description: "Combines Nine's acceptance with One's idealism and sense of purpose."
       }
     },
-    integration: "Moves to Type 3 in growth",
-    disintegration: "Moves to Type 6 in stress",
+    integration: "In growth moves to Type 3 - The Trailblazer: Becomes more ambitious, energetic, and engaged, taking action rather than avoiding conflict.",
+    disintegration: "In stress moves to Type 6 - The Sentinel: Becomes anxious, doubtful, and paranoid, losing trust in themselves and those around them.",
     healthLevels: {
       healthy: [
         "Becomes dynamic and engaged",
@@ -427,13 +427,13 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Mediation", "Acceptance", "Stability", "Understanding"],
     challenges: ["Inertia", "Conflict-avoidance", "Self-forgetting", "Stubbornness"],
-    examples: ["Carl Jung", "Walt Disney", "Queen Elizabeth II"],
+    examples: "I must maintain peace to be at ease; the truth is, I am at peace when I am true to myself.",
     subtypes: {
       selfPreservation: "Focused on physical comfort and maintaining routine",
       sexual: "Seeks union and merger in relationships",
       social: "Creates harmony and connection in groups"
     },
-    coreBelief: "I must maintain peace to be worthy",
+    coreBelief: "I must maintain peace to be safe",
     commonLie: "Conflict and tension must be avoided",
     color: "bg-[#134E4A]"
   }
@@ -454,7 +454,7 @@ export default function TypeDetail({ typeNumber, isWing, wingKey }: TypeDetailPr
     },
     strengths: [] as string[],
     challenges: [] as string[],
-    examples: [] as string[],
+    examples: "",
     subtypes: {
       selfPreservation: "",
       sexual: "",
