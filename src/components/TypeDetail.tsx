@@ -15,23 +15,23 @@ interface TypeDetailProps {
 
 const typeData: Record<number, TypeData> = {
   1: {
-    name: "The Reformer",
-    summary: "Ethical, dedicated and self-controlled, seeking to improve themselves and their world.",
-    traits: ["Principled", "Purposeful", "Self-Controlled", "Perfectionistic"],
+    name: "The Crusader",
+    summary: "Ethical, dedicated and reliable, Ones are motivated by a desire to live the right way, improve the world, and avoid fault and blame.",
+    traits: ["Principled and purposeful", "Self-controlled and perfectionistic", "Rational and idealistic", "Organized and orderly", "Critical (of self and others)", "Gut Center: Processes the world via their instincts."],
     wings: {
       "1w9": {
-        name: "The Idealist",
+        name: "Type 1 wing 9 - The Vanguard",
         traits: ["More introverted", "Calmer", "Less confrontational", "More philosophical"],
         description: "Combines One's perfectionism with Nine's desire for peace and harmony."
       },
       "1w2": {
-        name: "The Advocate",
+        name: "Type 1 wing 2 - The Justicar",
         traits: ["More extroverted", "People-oriented", "More emotional", "Service-focused"],
-        description: "Combines One's idealism with Two's desire to help others."
+        description: "Combines One's idealism with Two's desire to help others. The enforcer of justice and protector of the cause, standing firm in the face of moral conflict."
       }
     },
-    integration: "Moves to Type 7 in growth",
-    disintegration: "Moves to Type 4 in stress",
+    integration: "In growth moves to Type 7 - The Maverick: Becomes more spontaneous, joyful, and open-minded, allowing for creativity and flexibility.",
+    disintegration: "In stress moves to Type 4 - The Trailblazer: Becomes overly self-critical, withdrawn, and emotionally turbulent, losing their sense of purpose in frustration.",
     healthLevels: {
       healthy: [
         "Becomes accepting and patient with self and others",
@@ -51,7 +51,7 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Honest", "Responsible", "Improvement-oriented", "Ethical"],
     challenges: ["Criticality", "Rigidity", "Impatience", "Self-criticism"],
-    examples: ["Nelson Mandela", "Michelle Obama", "Mahatma Gandhi"],
+    examples: "I must be perfect to be worthy; the truth is, I am enough just as I am.",
     subtypes: {
       selfPreservation: "Focused on personal security and maintaining order in their environment",
       sexual: "Intense about personal relationships and maintaining high standards in partnerships",
@@ -62,23 +62,23 @@ const typeData: Record<number, TypeData> = {
     color: "bg-primary"
   },
   2: {
-    name: "The Helper",
-    summary: "Empathetic, sincere and warm-hearted, they are motivated by a need to be loved and needed.",
-    traits: ["Caring", "Generous", "Empathetic", "People-Pleasing"],
+    name: "The Guardian",
+    summary: "Warm, caring, and giving, Twos are motivated by a need to be loved and needed, and to avoid acknowledging their own needs.",
+    traits: ["Caring and interpersonal", "Empathetic and sincere", "People-pleasing and possessive", "Generous and self-sacrificing", "Pride in helping others", "Heart Center: Processes the world via their feelings."],
     wings: {
       "2w1": {
-        name: "The Servant",
+        name: "Type 2 wing 1 - The Benevolent",
         traits: ["More organized", "Principled", "Dutiful", "Service-oriented"],
         description: "Combines Two's caring nature with One's sense of duty and ethics."
       },
       "2w3": {
-        name: "The Host/Hostess",
+        name: "Type 2 wing 3 - The Emissary",
         traits: ["More outgoing", "Image-conscious", "Ambitious", "Charming"],
         description: "Combines Two's helpfulness with Three's charm and social adaptability."
       }
     },
-    integration: "Moves to Type 4 in growth",
-    disintegration: "Moves to Type 8 in stress",
+    integration: "In growth moves to Type 4 - The Trailblazer: Develops deeper self-awareness and emotional depth, embracing their own needs rather than always prioritizing others.",
+    disintegration: "In stress moves to Type 8 - The Warlord: Becomes controlling, demanding, and aggressive when feeling unappreciated.",
     healthLevels: {
       healthy: [
         "Becomes genuinely caring and altruistic",
@@ -98,7 +98,7 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Empathy", "Generosity", "Emotional Intelligence", "Nurturing"],
     challenges: ["Dependency", "People-pleasing", "Boundary issues", "Pride"],
-    examples: ["Mother Teresa", "Desmond Tutu", "Princess Diana"],
+    examples: "Mother Teresa", "Desmond Tutu", "Princess Diana",
     subtypes: {
       selfPreservation: "Focused on meeting their own needs through helping others",
       sexual: "Intense in relationships, seeking intimate connections through giving",
@@ -109,17 +109,17 @@ const typeData: Record<number, TypeData> = {
     color: "bg-[#991B1B]"
   },
   3: {
-    name: "The Achiever",
-    summary: "Ambitious, adaptable and success-oriented, driven by a need to be admired and to achieve success.",
-    traits: ["Ambitious", "Efficient", "Image-conscious", "Adaptable"],
+    name: "The Trailblazer",
+    summary: "Success-oriented, pragmatic, and adaptable, Threes are motivated by a need to be successful, to distinguish themselves from others, and to avoid failure.",
+    traits: ["Ambitious and driven", "Image-conscious and adaptable", "Efficient and goal-oriented", "Competitive and status-seeking", "Self-promoting and charming", "Heart Center: Processes the world via their feelings."],
     wings: {
       "3w2": {
-        name: "The Charmer",
+        name: "Type 3 wing 2 - The Enchanter",
         traits: ["More people-oriented", "Helpful", "Diplomatic", "Engaging"],
         description: "Combines Three's ambition with Two's desire to be liked and helpful."
       },
       "3w4": {
-        name: "The Professional",
+        name: "Type 3 wing 4 - The Ace",
         traits: ["More introspective", "Creative", "Distinguished", "Refined"],
         description: "Combines Three's drive for success with Four's creativity and authenticity."
       }
@@ -145,7 +145,7 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Drive", "Efficiency", "Adaptability", "Leadership"],
     challenges: ["Workaholism", "Image-focus", "Authenticity issues", "Validation-seeking"],
-    examples: ["Tony Robbins", "Taylor Swift", "Tom Cruise"],
+    examples: "I must achieve to be valued; the truth is, I am valuable for who I am, not what I do.",
     subtypes: {
       selfPreservation: "Focused on security through personal achievement and material success",
       sexual: "Seeks to be the best and most attractive in relationships",
@@ -156,23 +156,23 @@ const typeData: Record<number, TypeData> = {
     color: "bg-[#854D0E]"
   },
   4: {
-    name: "The Individualist",
-    summary: "Creative, sensitive, and expressive, driven by a need to be unique and find meaning in life.",
-    traits: ["Authentic", "Creative", "Sensitive", "Expressive"],
+    name: "The Visionary",
+    summary: "Sensitive, introspective, and expressive, Fours are motivated by a need to be authentic, special and to avoid being ordinary or mundane.",
+    traits: ["Introspective and sensitive", "Creative and expressive", "Melancholic and dramatic", "Self-aware and authentic", "Emotional depth and intensity", "Heart Center: Processes the world via their feelings."],
     wings: {
       "4w3": {
-        name: "The Aristocrat",
+        name: "Type 4 wing 3 - The Patrician",
         traits: ["More ambitious", "Image-conscious", "Success-oriented", "Competitive"],
         description: "Combines Four's creativity with Three's drive for achievement and recognition."
       },
       "4w5": {
-        name: "The Bohemian",
+        name: "Type 2 wing 5 - The Mystagogue",
         traits: ["More introspective", "Intellectual", "Reserved", "Philosophical"],
         description: "Combines Four's emotional depth with Five's analytical nature and wisdom."
       }
     },
-    integration: "Moves to Type 1 in growth",
-    disintegration: "Moves to Type 2 in stress",
+    integration: "In growth moves to Type 1 - The Crusader: Gains structure, discipline, and clarity, channeling their creativity into tangible action.",
+    disintegration: "In stress moves to Type 2 - The Guardian: Becomes emotionally needy, seeking validation and over-investing in relationships to feel worthy.",
     healthLevels: {
       healthy: [
         "Becomes inspired and creative",
@@ -192,34 +192,34 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Creativity", "Empathy", "Authenticity", "Emotional depth"],
     challenges: ["Melancholy", "Self-absorption", "Envy", "Mood fluctuations"],
-    examples: ["Vincent van Gogh", "Virginia Woolf", "Johnny Depp"],
+    examples: "I am different and must be special to be loved; the truth is, I am loved for my true self",
     subtypes: {
       selfPreservation: "Focused on enduring suffering and finding personal meaning through hardship",
       sexual: "Seeks intense, passionate connections and dramatic emotional experiences",
       social: "Expresses uniqueness through cultural or artistic contributions"
     },
     coreBelief: "I must be unique and special to be worthy",
-    commonLie: "Something essential is missing in my life",
+    commonLie: "I’m different from everyone else in the world",
     color: "bg-[#064E3B]"
   },
   5: {
-    name: "The Investigator",
-    summary: "Perceptive, innovative, and private, driven by a need to understand and master the world around them.",
-    traits: ["Analytical", "Perceptive", "Private", "Innovative"],
+    name: "The Strategist",
+    summary: "Perceptive, innovative, and isolated, Fives are motivated by a need to gain knowledge, conserve energy, and avoid relying on others.",
+    traits: ["Analytical and perceptive", "Private and detached", "Intellectual and innovative", "Conservation of resources", "Minimalist and autonomous", "Head Center: Processes the world via their thinking."],
     wings: {
       "5w4": {
-        name: "The Iconoclast",
+        name: "Type 5 wing 4 - The Philosopher",
         traits: ["More creative", "Emotionally aware", "Artistic", "Unconventional"],
-        description: "Combines Five's intellect with Four's creativity and emotional depth."
+        description: "Combines Five's intellect with Four's creativity and emotional depth. The meticulous and tactical mind, always seeking solutions to complex problems with unparalleled precision."
       },
       "5w6": {
-        name: "The Problem Solver",
+        name: "Type 5 wing 6 - The Problem Solver",
         traits: ["More practical", "Security-oriented", "Systematic", "Loyal"],
         description: "Combines Five's knowledge-seeking with Six's need for security and structure."
       }
     },
-    integration: "Moves to Type 8 in growth",
-    disintegration: "Moves to Type 7 in stress",
+    integration: "In growth moves to Type 8 - The Warlord: Gains confidence, assertiveness, and the courage to act decisively rather than just observing.",
+    disintegration: "In stress moves to Type 7 - The Maverick: Becomes scattered, impulsive, and disconnected, overindulging in distractions instead of deep focus.",
     healthLevels: {
       healthy: [
         "Becomes visionary and pioneering",
@@ -239,7 +239,7 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Intelligence", "Objectivity", "Innovation", "Expertise"],
     challenges: ["Isolation", "Detachment", "Hoarding", "Overthinking"],
-    examples: ["Albert Einstein", "Stephen Hawking", "Bill Gates"],
+    examples: "Albert Einstein", "Stephen Hawking", "Bill Gates",
     subtypes: {
       selfPreservation: "Focused on maintaining physical security and minimizing needs",
       sexual: "Seeks intense intellectual connections and sharing of knowledge",
@@ -250,23 +250,23 @@ const typeData: Record<number, TypeData> = {
     color: "bg-[#581C87]"
   },
   6: {
-    name: "The Loyalist",
-    summary: "Committed, security-oriented, and engaging, driven by the need for security and support.",
-    traits: ["Loyal", "Responsible", "Security-focused", "Vigilant"],
+    name: "The Sentinel",
+    summary: "Committed, security-oriented, and engaging, Sixes are motivated by a need for security, guidance, and to avoid danger.",
+    traits: ["Loyal and committed", "Anxious and vigilant", "Questioning and doubting", "Responsible and dutiful", "Security-seeking and cautious", "Head Center: Processes the world via their thinking."],
     wings: {
       "6w5": {
-        name: "The Defender",
+        name: "Type 6 wing 5 - The Guardian",
         traits: ["More analytical", "Reserved", "Intellectual", "Systematic"],
         description: "Combines Six's loyalty with Five's analytical nature and objectivity."
       },
       "6w7": {
-        name: "The Buddy",
+        name: "Type 6 wing 7 - The Shieldbearer",
         traits: ["More optimistic", "Sociable", "Adventurous", "Engaging"],
-        description: "Combines Six's commitment with Seven's enthusiasm and positivity."
+        description: "Combines Six's commitment with Seven's enthusiasm and positivity. The loyal companion, offering support and protection, ensuring the survival of the group through unity and strength."
       }
     },
-    integration: "Moves to Type 9 in growth",
-    disintegration: "Moves to Type 3 in stress",
+    integration: "In growth moves to Type 9 - The Diplomat: Gains inner peace, trust, and a sense of calm, learning to rely on intuition instead of constant anxiety.",
+    disintegration: "In stress moves to Type 3 - The Trailblazer: Becomes image-conscious, competitive, and overly focused on external validation to combat insecurity.",
     healthLevels: {
       healthy: [
         "Becomes courageous and supportive",
@@ -286,7 +286,7 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Loyalty", "Responsibility", "Problem-solving", "Perseverance"],
     challenges: ["Anxiety", "Doubt", "Over-thinking", "Reactivity"],
-    examples: ["George H.W. Bush", "Robert De Niro", "Michelle Pfeiffer"],
+    examples: "I must be prepared and secure to be worthy; the truth is, I am safe, capable, and worthy on my own.",
     subtypes: {
       selfPreservation: "Focused on physical security and worst-case scenarios",
       sexual: "Seeks strong partnerships and protection through relationships",
@@ -297,7 +297,7 @@ const typeData: Record<number, TypeData> = {
     color: "bg-[#7C2D12]"
   },
   7: {
-    name: "The Enthusiast",
+    name: "The Maverick",
     summary: "Spontaneous, versatile, and adventurous, driven by a need to experience life's pleasures and avoid pain.",
     traits: ["Optimistic", "Adventurous", "Versatile", "Spontaneous"],
     wings: {
@@ -344,7 +344,7 @@ const typeData: Record<number, TypeData> = {
     color: "bg-[#831843]"
   },
   8: {
-    name: "The Challenger",
+    name: "The Warlord",
     summary: "Powerful, dominating, and self-confident, driven by a need to be strong and avoid vulnerability.",
     traits: ["Strong-willed", "Decisive", "Protective", "Confrontational"],
     wings: {
@@ -391,7 +391,7 @@ const typeData: Record<number, TypeData> = {
     color: "bg-[#312E81]"
   },
   9: {
-    name: "The Peacemaker",
+    name: "The Diplomat",
     summary: "Accepting, trusting, and stable, driven by a need to maintain peace and avoid conflict.",
     traits: ["Patient", "Receptive", "Harmonious", "Agreeable"],
     wings: {
@@ -575,7 +575,7 @@ export default function TypeDetail({ typeNumber, isWing, wingKey }: TypeDetailPr
             transition={{ delay: 0.6 }}
             className="bg-card rounded-lg p-6"
           >
-            <h2 className="text-2xl font-semibold mb-4">Famous Examples</h2>
+            <h2 className="text-2xl font-semibold mb-4">Mantra</h2>
             <ul className="list-disc list-inside space-y-2">
               {type.examples.map((example) => (
                 <li key={example}>{example}</li>
