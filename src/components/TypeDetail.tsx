@@ -98,7 +98,7 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Empathy", "Generosity", "Emotional Intelligence", "Nurturing"],
     challenges: ["Dependency", "People-pleasing", "Boundary issues", "Pride"],
-    examples: "Mother Teresa", "Desmond Tutu", "Princess Diana",
+    examples: "I must be needed and loved to matter; the truth is, my worth comes from within.",
     subtypes: {
       selfPreservation: "Focused on meeting their own needs through helping others",
       sexual: "Intense in relationships, seeking intimate connections through giving",
@@ -239,7 +239,7 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Intelligence", "Objectivity", "Innovation", "Expertise"],
     challenges: ["Isolation", "Detachment", "Hoarding", "Overthinking"],
-    examples: "Albert Einstein", "Stephen Hawking", "Bill Gates",
+    examples: "I am different and must be special to be loved; the truth is, I am loved for my true self",
     subtypes: {
       selfPreservation: "Focused on maintaining physical security and minimizing needs",
       sexual: "Seeks intense intellectual connections and sharing of knowledge",
