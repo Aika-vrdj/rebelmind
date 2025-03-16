@@ -16,9 +16,12 @@ export default function TypeTraits({ traits }: TypeTraitsProps) {
     >
       <h2 className="text-2xl font-semibold mb-4">Key Traits</h2>
       <ul className="list-disc list-inside space-y-2">
-        {(traits ?? []).map((trait) => (
-          <li key={trait ?? ""}>{trait}</li>
-        ))}
+         {Array.isArray(traits) 
+   ? traits.map((trait) => (
+    <li key={trait ?? "unknown-trait"}>{trait ?? "Unknown Trait"}</li>
+   ))
+   : <li>No traits available</li>
+  }
       </ul>
     </motion.div>
   );
